@@ -1,0 +1,31 @@
+/* Geral */
+
+@import url(./insta/insta.css);
+@import url(./insta/insta-carousel.css);
+
+/* Login */
+
+@import url(./login/login.css);
+@import url(./login/login-logo.css);
+@import url(./login/login-form.css);
+@import url(./login/login-logoForm.css);
+@import url(./login/login-form-account.css);
+@import url(./login/login-form-alt.css);
+@import url(./login/login-linkFacebook.css);
+@import url(./login/login-linkSenha.css);
+@import url(./login/login-form-btn.css);
+
+
+/* Login sub-section */
+
+@import url(./notAccount/notAccount.css);
+@import url(./notAccount/notAccount-sigin.css);
+
+/* App Store Btns */
+
+@import url(./store/store.css);
+@import url(./store/store-btns.css);
+
+/* Floating intective placeholder */
+
+@import url(./floatingLabel.css);
