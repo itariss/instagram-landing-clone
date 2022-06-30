@@ -1,0 +1,8 @@
+.store {
+    width: 25rem;
+    height: 6.3125rem;
+    text-align: center;
+    padding-top: .741rem;
+}
+
+@import url(./store-btns.css);
