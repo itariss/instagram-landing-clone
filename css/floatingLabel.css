@@ -1,0 +1,19 @@
+.floatingLabel {
+    align-self: flex-start;
+    position: absolute;
+    color: #9e9e9e;
+    left: 3.45rem;
+    display: none;
+}
+
+#user:focus~.label--user,
+#user:not(:focus):valid~.label--user {
+    bottom: 17.6rem;
+    font-size: 11px;
+}
+
+#password:focus~.label--password,
+#password:not(:focus):valid~.label--password {
+    bottom: 14.2rem;
+    font-size: 11px;
+}
