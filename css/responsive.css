@@ -1,0 +1,33 @@
+@media screen and (max-width:768px) {
+
+    body {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .insta {
+        padding: 0;
+        margin: 0;
+        max-width: calc(100vw - 1rem);
+    }
+
+    .login__logoForm,
+    .notAccount {
+        border: none;
+        background-color: var(--bg-general);
+    }
+
+    .login__logoForm {
+        height: 26.785rem;
+    }
+
+    .login__logo {
+        margin-top: 1.5rem;
+    }
+
+
+    .insta__cel {
+        display: none;
+    }
+}
