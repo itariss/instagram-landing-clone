@@ -1,0 +1,11 @@
+.insta {
+    position: relative;
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: center;
+    padding: 2.285rem 6.142rem;
+    width: 66.78rem;
+    height: 50.07rem;
+    margin-top: 2.285rem;
+
+}

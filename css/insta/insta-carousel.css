@@ -1,0 +1,12 @@
+.insta__caroulsel {
+    background: url(../../img/carousel-1.png) no-repeat;
+    background-size: cover;
+    width: 18.071rem;
+    height: 38.914rem;
+    position: absolute;
+    top: 4.1rem;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    left: 15.48rem;
+    transition: 1s;
+}
