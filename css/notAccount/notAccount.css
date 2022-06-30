@@ -1,0 +1,13 @@
+.notAccount {
+    background: var(--bg-login);
+    display: flex;
+    width: 25rem;
+    align-items: center;
+    margin-top: .714rem;
+    height: 4.5rem;
+    justify-content: center;
+    border: 1px var(--placeholder-color) solid;
+
+}
+
+@import url(./notAccount-sigin.css);
