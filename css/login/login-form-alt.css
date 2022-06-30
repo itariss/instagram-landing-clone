@@ -1,6 +1,6 @@
 .login__form__alt {
     text-transform: uppercase;
-    color: #dbdbdd;
+    color: var(--placeholder);
     font-size: .928rem;
 }
 
