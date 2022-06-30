@@ -1,0 +1,11 @@
+.login__link--facebook {
+    color: var(--fb-color);
+    margin-bottom: 1.428rem;
+}
+
+.login__link--facebook::before {
+    content: url(../../img/fb.gif);
+    position: relative;
+    top: .2rem;
+    right: .571rem;
+}

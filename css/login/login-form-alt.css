@@ -1,0 +1,17 @@
+.login__form__alt {
+    text-transform: uppercase;
+    color: #dbdbdd;
+    font-size: .928rem;
+}
+
+.altSpan {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.857rem;
+}
+
+hr {
+    width: 7.14rem;
+    margin: 0 1.14rem;
+    opacity: 0.4;
+}

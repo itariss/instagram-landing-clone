@@ -1,0 +1,23 @@
+.login__form__account {
+    width: 19.071rem;
+    height: 2.714rem;
+    padding-top: .371rem;
+    outline: none;
+    border: 1px var(--placeholder-color) solid;
+    color: var(--text-color);
+    border-radius: 3px;
+    margin-bottom: .571rem;
+    padding-left: .571rem;
+}
+
+.login__form__account::placeholder {
+    color: var(--placeholder);
+    transition: 300ms;
+    font-size: 12px;
+
+}
+
+#password:valid~.login__form__btn {
+    background-color: var(--link-2);
+    cursor: pointer;
+}

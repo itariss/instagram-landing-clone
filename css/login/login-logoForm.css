@@ -1,0 +1,8 @@
+.login__logoForm {
+    background: var(--bg-login);
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 28.285rem;
+    border: 1px var(--placeholder-color) solid;
+}
