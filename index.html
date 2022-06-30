@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/base.css" />
+		<link rel="stylesheet" href="./css/insta/insta.css" />
+		<link rel="stylesheet" href="./css/login/login.css" />
+		<link rel="stylesheet" href="./css/login/login-form.css" />
+		<link rel="stylesheet" href="./css/login/login-form-account.css" />
+		<link rel="stylesheet" href="./css/login/login-form-btn.css" />
+		<link rel="stylesheet" href="./css/login/login-logo.css" />
+		<link rel="stylesheet" href="./css/login/login-logoForm.css" />
+		<link rel="stylesheet" href="./css/login/login-form-alt.css" />
+		<link rel="stylesheet" href="./css/login/login-linkFacebook.css" />
+		<link rel="stylesheet" href="./css/login/login-linkSenha.css" />
+		<link rel="stylesheet" href="./css/notAccount/notAccount.css" />
+		<link rel="stylesheet" href="./css/notAccount/notAccount-sigin.css" />
+		<link rel="stylesheet" href="./css/store/store.css" />
+		<link rel="stylesheet" href="./css/store/store-btns.css" />
+		<link rel="stylesheet" href="./css/insta/insta-carousel.css" />
+		<link rel="stylesheet" href="./css/floatingLabel.css" />
+		<title>Instagram</title>
+	</head>
+	<body>
+		<div class="insta">
+			<div class="insta__cel">
+				<img
+					src="./img/insta-cel.png"
+					alt=""
+					class="insta__cel__image"
+				/>
+				<div class="insta__caroulsel"></div>
+			</div>
+			<div class="login">
+				<div class="login__logoForm">
+					<img
+						src="./img/instagram-logo.png"
+						alt=""
+						class="login__logo"
+					/>
+					<div class="login__form">
+						<input
+							id="user"
+							type="text"
+							class="login__form__account form"
+							required
+							autocomplete="off"
+						/>
+						<span class="floatingLabel label--user"
+							>Telefone, nome de usuário ou email</span
+						>
+						<input
+							id="password"
+							type="password"
+							class="login__form__account"
+							autocomplete="off"
+							required
+						/>
+						<span class="floatingLabel label--pasword">Senha</span>
+						<button class="login__form__btn">Entrar</button>
+						<div class="altSpan">
+							<span><hr /></span>
+							<p class="login__form__alt">Ou</p>
+							<span><hr /></span>
+						</div>
+						<a href="#" class="login__link--facebook"
+							>Entrar com Facebook</a
+						>
+						<a href="#" class="login__link--senha"
+							>Esqueceu a senha?</a
+						>
+					</div>
+				</div>
+				<div class="notAccount">
+					<span class="notAccount__msg">Não tem uma conta?</span>
+					<a href="" class="notAccount__sigin">Cadastre-se</a>
+				</div>
+				<div class="store">
+					<p class="store__text">Obtenha o aplicativo.</p>
+					<div class="store__btns">
+						<a href=""
+							><img
+								src="./img/apple-button.png"
+								alt=""
+								class="store__btn"
+						/></a>
+						<a href=""
+							><img
+								src="./img/googleplay-button.png"
+								alt=""
+								class="store__btn"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./js/carousel.js"></script>
+	</body>
+</html>
